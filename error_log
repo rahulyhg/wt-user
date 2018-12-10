@@ -1,0 +1,46 @@
+[28-Apr-2017 13:43:40 Asia/Kolkata] PHP Warning:  unlink(/home/internationalinf/india.internationalinfotech.com/system/storage/cache/cache.language.1493317375): No such file or directory in /home/internationalinf/india.internationalinfotech.com/system/library/cache/file.php on line 17
+[28-Apr-2017 13:43:40 Asia/Kolkata] PHP Warning:  unlink(/home/internationalinf/india.internationalinfotech.com/system/storage/cache/cache.product.bestseller.1.0.1.12.1493318102): No such file or directory in /home/internationalinf/india.internationalinfotech.com/system/library/cache/file.php on line 17
+[28-Apr-2017 13:43:40 Asia/Kolkata] PHP Warning:  Error while sending QUERY packet. PID=13668 in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php on line 18
+[28-Apr-2017 13:43:40 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_extension WHERE `type` = 'openbay'' in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/internationalinf/india.internationalinfotech.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/internationalinf/india.internationalinfotech.com/system/library/openbay.php(117): DB->query('SELECT * FROM o...')
+#2 /home/internationalinf/india.internationalinfotech.com/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/internationalinf/india.internationalinfotech.com/system/engine/loader.php(110): Openbay->__construct(Object(Registry))
+#4 /home/internationalinf/india.internationalinfotech.com/system/framework.php(81): Loader->library('openbay')
+#5 /home/internationalinf/india.internationalinfotech.com/system/startup.php(124): require_once('/home/internati...')
+#6 /home/internationalinf/india.interna in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php on line 40
+[28-Apr-2017 13:43:40 Asia/Kolkata] PHP Warning:  Error while sending QUERY packet. PID=13577 in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php on line 18
+[28-Apr-2017 13:43:40 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_extension WHERE `type` = 'openbay'' in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/internationalinf/india.internationalinfotech.com/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/internationalinf/india.internationalinfotech.com/system/library/openbay.php(117): DB->query('SELECT * FROM o...')
+#2 /home/internationalinf/india.internationalinfotech.com/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/internationalinf/india.internationalinfotech.com/system/engine/loader.php(110): Openbay->__construct(Object(Registry))
+#4 /home/internationalinf/india.internationalinfotech.com/system/framework.php(81): Loader->library('openbay')
+#5 /home/internationalinf/india.internationalinfotech.com/system/startup.php(124): require_once('/home/internati...')
+#6 /home/internationalinf/india.interna in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php on line 40
+[10-Aug-2017 22:03:42 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'india.oc_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM oc_cart WHERE (api_id > '0' OR customer_id = '0') AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR)' in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/internationalinf/india.internationalinfotech.com/system/library/db.php(16): DB\MySQLi->query('DELETE FROM oc_...', Array)
+#1 /home/internationalinf/india.internationalinfotech.com/system/library/cart/cart.php(15): DB->query('DELETE FROM oc_...')
+#2 /home/internationalinf/india.internationalinfotech.com/catalog/controller/startup/startup.php(185): Cart\Cart->__construct(Object(Registry))
+#3 [internal function]: ControllerStartupStartup->index()
+#4 /home/internationalinf/india.internationalinfotech.com/system/engine/action.php(51): call_user_func_array(Array, Array)
+#5 /home/internationalinf/india.internationalinfotech.com/system/engine/front.php(34): Action->execute(Object(Regis in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php on line 40
+[12-Aug-2017 11:27:09 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'india.oc_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM oc_cart WHERE (api_id > '0' OR customer_id = '0') AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR)' in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/internationalinf/india.internationalinfotech.com/system/library/db.php(16): DB\MySQLi->query('DELETE FROM oc_...', Array)
+#1 /home/internationalinf/india.internationalinfotech.com/system/library/cart/cart.php(15): DB->query('DELETE FROM oc_...')
+#2 /home/internationalinf/india.internationalinfotech.com/catalog/controller/startup/startup.php(185): Cart\Cart->__construct(Object(Registry))
+#3 [internal function]: ControllerStartupStartup->index()
+#4 /home/internationalinf/india.internationalinfotech.com/system/engine/action.php(51): call_user_func_array(Array, Array)
+#5 /home/internationalinf/india.internationalinfotech.com/system/engine/front.php(34): Action->execute(Object(Regis in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php on line 40
+[12-Aug-2017 11:37:15 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'india.oc_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM oc_cart WHERE (api_id > '0' OR customer_id = '0') AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR)' in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/internationalinf/india.internationalinfotech.com/system/library/db.php(16): DB\MySQLi->query('DELETE FROM oc_...', Array)
+#1 /home/internationalinf/india.internationalinfotech.com/system/library/cart/cart.php(15): DB->query('DELETE FROM oc_...')
+#2 /home/internationalinf/india.internationalinfotech.com/catalog/controller/startup/startup.php(185): Cart\Cart->__construct(Object(Registry))
+#3 [internal function]: ControllerStartupStartup->index()
+#4 /home/internationalinf/india.internationalinfotech.com/system/engine/action.php(51): call_user_func_array(Array, Array)
+#5 /home/internationalinf/india.internationalinfotech.com/system/engine/front.php(34): Action->execute(Object(Regis in /home/internationalinf/india.internationalinfotech.com/system/library/db/mysqli.php on line 40
